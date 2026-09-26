@@ -1,4 +1,7 @@
-# 🧪 Bill Nye Tile — What You Built, What It Isn’t Yet, and Why It Matters
+# 🧪 Bill Nye Tile — SSM Clarification v1.1
+Altitude: A0  
+Membrane: Governance • Tiles  
+Version: v1.1
 
 Okay class!  
 Today we’re looking at a solar device that isn’t a solar device, built inside a governance system that is a governance system, using membranes that actually work, even though the physics is still fictional.
@@ -142,7 +145,7 @@ This is the NDH equivalent of building the entire scientific department before r
 
 ---
 
-🧾 Provenance Footer
+🧾 Provenance
 
 `
 ---
@@ -160,5 +163,4 @@ Provenance:
 `
 
 ---
-
 
