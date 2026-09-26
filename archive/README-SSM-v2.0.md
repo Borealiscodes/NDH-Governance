@@ -254,3 +254,42 @@ Version: README v2.0
 
 ---
 
+🧾 Archival Provenance Footer — SSM README v2.0
+
+`md
+---
+Archival Provenance:
+  Artifact: README-SSM-v2.0.md
+  Archive-Membrane: A-Archive • Spectral Geometry • Ecological Energy Systems
+  Altitude: A10–A12 (Domain-Level Spectral Systems)
+  Version: v2.0 (Archived)
+  Status: Immutable — Archived Snapshot
+
+  Author: Borealis S. Hedling (NDH Meta-Systems Research Lead)
+  Compiler: Microsoft Copilot (Spectral Geometry Assistant)
+
+  Original-Context:
+    - Spectral Solar Manifold (SSM) Prototype v2.0
+    - Spectral geometry, harmonic resonance, ecological energy systems
+    - Includes math, physics, engineering, rights-layer, humor-layer
+
+  Lineage:
+    - Derived from SSM v1.0 conceptual notes
+    - Extended from spectral-geometry-manifold-spec-v1.x
+    - Upstream governance: NDH A0 → A0.1 → A0.2 (non-content membranes)
+    - Downstream artifacts: manifold-specs/, engineering-blueprints/, physics/, math/, code/
+
+  Rights-Layer Notes:
+    - Archived artifact is immutable and excluded from active execution pipelines
+    - Rights-layer compliance verified at time of archival
+    - No further modifications permitted without creating a new versioned archive
+
+  Timestamp:
+    - Archived: 2026-09-26
+    - Location: Dublin, Ireland
+
+---
+`
+
+---
+
