@@ -176,3 +176,28 @@ Context: Upstream governance for NDH execution repos (including SSM)
 
 ---
 
+🧾 Provenance Footer (Archive v3.1)
+
+`
+---
+Provenance
+Author: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Altitude: A0 (Governance)
+Context: Archival of README v3.1 following introduction of Spinal Topology Map
+v1.0 and Direction Manifold v1.0. Preserves historical governance framing prior
+to stabilization of NDH-Governance under updated spinal architecture.
+Version: README v3.1 (Archive)
+Date: 2026-09-26
+`
+
+Why this footer is correct:
+
+- marks the artifact as archival  
+- ties it to the topology + direction manifold changes  
+- preserves lineage  
+- keeps altitude clean  
+- maintains governance provenance  
+
+---
+
