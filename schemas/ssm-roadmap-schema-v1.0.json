@@ -1,0 +1,89 @@
+{
+  "version": "1.0",
+  "project": "Spectral Solar Manifold (SSM)",
+  "phases": [
+    {
+      "id": "manifold-specs",
+      "altitude": "A2",
+      "deliverables": [
+        "ssm-v1.0.md",
+        "ssm-v1.1-spectral-tuning.md"
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "math-layer",
+      "altitude": "A2",
+      "deliverables": [
+        "laplacian-spectrum-derivations.md",
+        "eigenmode-alignment.md",
+        "spectral-rigidity-proofs.md"
+      ],
+      "depends_on": ["manifold-specs"]
+    },
+    {
+      "id": "physics-layer",
+      "altitude": "A2",
+      "deliverables": [
+        "solar-spectrum-analysis.md",
+        "radiative-harmonic-capture.md",
+        "efficiency-modeling.md"
+      ],
+      "depends_on": ["math-layer"]
+    },
+    {
+      "id": "engineering-blueprints",
+      "altitude": "A2",
+      "deliverables": [
+        "resonant-surface-geometry-v1.0.md",
+        "metamaterial-layer-v1.0.md",
+        "energy-transduction-v1.0.md"
+      ],
+      "depends_on": ["math-layer", "physics-layer"]
+    },
+    {
+      "id": "code-layer",
+      "altitude": "A1",
+      "deliverables": [
+        "spectral-analysis-tools",
+        "metamaterial-simulation",
+        "energy-system-modeling",
+        "rights-layer-compliance-scripts"
+      ],
+      "depends_on": ["engineering-blueprints", "physics-layer"]
+    },
+    {
+      "id": "rights-layer",
+      "altitude": "A1",
+      "deliverables": [
+        "climate-rights-compliance-note.md"
+      ],
+      "depends_on": ["code-layer"]
+    },
+    {
+      "id": "humor-layer",
+      "altitude": "A0",
+      "deliverables": [
+        "solar-goth-crystal-v1.0.md"
+      ],
+      "depends_on": ["rights-layer"]
+    }
+  ],
+  "invariants": {
+    "no_engineering_without_math": true,
+    "no_code_without_engineering": true,
+    "no_rights_layer_without_system": true,
+    "humor_layer_last": true
+  }
+}
+
+---
+Provenance:
+- Author: Borealis S. Hedling (NDH Research Lead)
+- Compiler: Microsoft Copilot (Spectral Geometry Assistant)
+- Context: Machine-readable roadmap schema for SSM v1.x development sequence.
+- Lineage: Derived from ssm-roadmap-v1.0 using NDH altitude and membrane rules.
+- Membrane: Spectral Geometry • Ecological Energy Systems
+- Altitude: A1 (Machine-Readable)
+- Version: ssm-roadmap-schema-v1.0
+---
